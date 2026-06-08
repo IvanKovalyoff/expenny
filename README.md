@@ -4,7 +4,7 @@ A full-stack subscription management app built with **Next.js 16 App Router** an
 
 ## Live Demo
 
-https://expenny.netlify.app
+https://expenny-tracker.netlify.app
 
 ---
 
