@@ -1,9 +1,8 @@
 'use client'
 
 import { useAuth } from '@/context/AuthContext';
-import { useState } from 'react';
 
-export default function SubscriptionForm({ onSubmit, onClose, formData, handleChangeInput, handleResetForm }) { 
+export default function SubscriptionForm({ onClose, formData, handleChangeInput, handleResetForm }) {
   const { handleAddSubscription } = useAuth();
 
   function handleFormSubmit(evt) { 
